@@ -16,7 +16,8 @@ const HeroSection = () => {
       </div>
       <div className="relative max-w-7xl mx-auto py-24 px-4 sm:py-32 sm:px-6 lg:px-8">
         <h1 className="text-4xl font-extrabold tracking-tight text-white sm:text-5xl lg:text-6xl">
-          <span className="block xl:inline">Efficient Logistics</span>{' '}
+        <span className="block xl:inline text-5xl">EVER<span className='text-green-600'>GREEN</span></span> <br />  
+        <span className="block xl:inline">Efficient Logistics</span>{' '}
           <span className="block text-green-600 xl:inline">
             Solutions for Your Business
           </span>

@@ -1,4 +1,5 @@
 import React from "react";
+import {GrFacebook} from 'react-icons/gr'
 
 const Footer = () => {
   return (
@@ -8,15 +9,11 @@ const Footer = () => {
           <div className="w-full md:w-1/4">
             <img src="/logo.jpg" alt="" className=" w-1/3 rounded-lg" />
             <h2 className="text-lg font-medium mb-4">EVERGREEN</h2>
-            <p className="text-sm mb-4">
-              We are a logistics company that provides a wide range of
-              transportation and warehousing services to businesses across the
-              globe.
-            </p>
+          
             <ul className="flex space-x-4">
               <li>
                 <a href="#" className="text-gray-500 hover:text-white">
-                  Facebook
+                  <GrFacebook />
                 </a>
               </li>
               <li>
@@ -61,12 +58,12 @@ const Footer = () => {
             <ul className="text-sm mb-4">
               <li className="mb-2">
                 <a href="#" className="text-gray-500 hover:text-white">
-                  123 Main St.
+                  No.5, Arowosegbe sogunle
                 </a>
               </li>
               <li className="mb-2">
                 <a href="#" className="text-gray-500 hover:text-white">
-                  Anytown, USA 12345
+                 oshodi lagos state
                 </a>
               </li>
               <li className="mb-2">
