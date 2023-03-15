@@ -1,41 +1,43 @@
 import React from 'react';
 
-function AboutUs() {
+const AboutUs = () => {
   return (
-    <div className="bg-white py-12">
-      <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="lg:text-center">
-          <h2 className="text-base text-indigo-600 font-semibold tracking-wide uppercase">About Us</h2>
-          <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+    <section className="bg-white py-16 px-5">
+      <div className="container mx-auto flex flex-col lg:flex-row items-center justify-center">
+        <div className="lg:w-1/2 lg:pr-12 mb-6 lg:mb-0">
+          <h2 className="text-3xl lg:text-4xl font-bold text-gray-800 mb-4">
             Who We Are
+          </h2>
+          <p className="text-gray-600 leading-relaxed mb-6">
+            We are a logistics company that is dedicated to providing the best
+            possible shipping and delivery services for businesses and
+            individuals alike. With years of experience in the industry, we have
+            built a reputation for being reliable, efficient, and affordable.
           </p>
-          <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
-            We are a full-service logistics company dedicated to providing reliable, customized solutions to our clients.
-            Our team of experienced professionals has the knowledge and expertise to handle all your logistics needs,
-            whether you need transportation, warehousing, or supply chain management.
+          <p className="text-gray-600 leading-relaxed mb-6">
+            Our mission is simple: to make shipping and delivery easy for our
+            customers. Whether you are a small business looking to expand your
+            reach or an individual who needs to send a package across the
+            country, we have the expertise and resources to get the job done
+            quickly and efficiently.
           </p>
+          <a
+            href="#"
+            className="text-blue-500 font-bold hover:text-blue-700 text-lg"
+          >
+            Learn More
+          </a>
         </div>
-        <div className="mt-10 md:grid md:grid-cols-2 md:gap-8">
-          <div>
-            <h3 className="text-xl font-medium text-gray-900">Our Values</h3>
-            <div className="mt-4">
-              <ul className="list-disc list-inside mt-4 text-lg text-gray-500">
-                <li>Reliability - we pride ourselves on delivering on-time, every time</li>
-                <li>Customized solutions - we work with our clients to develop tailored logistics solutions</li>
-                <li>Exceptional customer service - our team is available 24/7 to answer your questions and address your concerns</li>
-                <li>State-of-the-art technology - we leverage the latest technology to ensure maximum efficiency and visibility</li>
-                <li>Competitive pricing - we offer competitive rates without sacrificing quality</li>
-              </ul>
-            </div>
-          </div>
-          <div className="mt-12 md:mt-0">
-            
-            <img src='/about.jpg' alt="Company Headquarters" className="h-64 w-full object-cover md:h-full  rounded-lg mt-4" />
-          </div>
+        <div className="lg:w-1/2">
+          <img
+            src='ab.jpg'
+            alt="About Us"
+            className="w-full rounded-lg shadow-lg"
+          />
         </div>
       </div>
-    </div>
+    </section>
   );
-}
+};
 
 export default AboutUs;

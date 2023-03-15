@@ -1,29 +1,29 @@
 import React from "react";
-import {GrFacebook} from 'react-icons/gr'
+import {GrFacebook, GrTwitter, GrInstagram} from 'react-icons/gr'
 
 const Footer = () => {
   return (
-    <footer className="bg-black text-gray-500 py-8">
+    <footer className="bg-black text-white py-8">
       <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-wrap justify-between">
           <div className="w-full md:w-1/4">
             <img src="/logo.jpg" alt="" className=" w-1/3 rounded-lg" />
             <h2 className="text-lg font-medium mb-4">EVERGREEN</h2>
           
-            <ul className="flex space-x-4">
+            <ul className="flex space-x-4 my-4"> 
               <li>
-                <a href="#" className="text-gray-500 hover:text-white">
+                <a href="#" className=" hover:text-white">
                   <GrFacebook />
                 </a>
               </li>
               <li>
-                <a href="#" className="text-gray-500 hover:text-white">
-                  Twitter
+                <a href="#" className=" hover:text-white">
+                  <GrTwitter />
                 </a>
               </li>
               <li>
-                <a href="#" className="text-gray-500 hover:text-white">
-                  Instagram
+                <a href="#" className=" hover:text-white">
+                  <GrInstagram />
                 </a>
               </li>
             </ul>
